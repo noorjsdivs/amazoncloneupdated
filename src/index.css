@@ -8,6 +8,15 @@
   .headerHover {
     @apply px-2 h-[80%] flex items-center rounded-sm border border-transparent hover:border-white hover:cursor-pointer duration-100;
   }
+  .footerLink {
+    @apply hover:underline text-sm hover:text-gray-100 cursor-pointer mb-2 duration-150;
+  }
+  .footerBottomTitle {
+    @apply w-24 font-semibold text-xs group-hover:underline text-[#DDD];
+  }
+  .footerBottomText {
+    @apply w-24 text-xs text-[#999] group-hover:underline;
+  }
   /* .link {
     @apply cursor-pointer hover:underline;
   }
