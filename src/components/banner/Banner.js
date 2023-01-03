@@ -24,9 +24,8 @@ const Banner = () => {
       <div
         style={{
           position: "absolute",
-          top: "55%",
+          top: "70%",
           left: "45%",
-
           transform: "translate(-50% -50%)",
           width: "210px",
         }}
@@ -58,6 +57,7 @@ const Banner = () => {
                 background: "#131921",
                 padding: "8px 0",
                 cursor: "pointer",
+                border: "1px solid #f3a847",
               }
             : {
                 width: "30px",
@@ -66,11 +66,11 @@ const Banner = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                background: "white",
-                color: "#131921",
-                border: "1px solid #232F3E",
+                background: "#232F3E",
+                color: "white",
                 padding: "8px 0",
                 cursor: "pointer",
+                border: "1px solid white",
               }
         }
       >
@@ -110,8 +110,8 @@ const Banner = () => {
               style={
                 i === dotActive
                   ? {
-                      width: "20px",
-                      height: "20px",
+                      width: "22px",
+                      height: "22px",
                       borderRadius: "50%",
                       display: "flex",
                       alignItems: "center",
@@ -121,20 +121,21 @@ const Banner = () => {
                       padding: "8px 0",
                       fontSize: "10px",
                       cursor: "pointer",
+                      border: "1px solid #f3a847",
                     }
                   : {
-                      width: "20px",
-                      height: "20px",
+                      width: "22px",
+                      height: "22px",
                       borderRadius: "50%",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      background: "white",
-                      color: "#131921",
-                      border: "1px solid #232F3E",
+                      background: "#232F3E",
+                      color: "white",
                       padding: "8px 0",
                       fontSize: "10px",
                       cursor: "pointer",
+                      border: "1px solid white",
                     }
               }
             >
