@@ -166,7 +166,7 @@ const Banner = () => {
             <img src={bannerImgFive} alt="bannerImgFive" />
           </div>
         </Slider>
-        <div className="w-full h-[25%] bg-slate-100 bg-opacity-10 absolute bottom-0"></div>
+        <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-10"></div>
       </div>
     </div>
   );

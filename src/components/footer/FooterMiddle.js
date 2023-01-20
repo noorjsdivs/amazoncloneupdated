@@ -55,7 +55,6 @@ const FooterMiddle = () => {
           </div>
           <div className="flex gap-2">
             <div className="flex gap-1 items-center justify-center border border-gray-500 px-2">
-              {/* <GlobeIcon height={20} /> */}
               <p>English</p>
             </div>
             <div className="flex gap-1 items-center justify-center border border-gray-500 px-2">
